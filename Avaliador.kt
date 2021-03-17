@@ -1,4 +1,4 @@
-fun Int.resultado(): String{
+private fun Int.resultado(): String{
     println("Você tirou $this")
     return when (this){
         in 0..6-> "Se deu mal, reprovou"
